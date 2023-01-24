@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Book Encyclopedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "main-wrapper">
+        <div class = "nav">
+            <img class="logo-img" src="images/logo.png">
+            <form class = "t-search">
+                <input type = "text" class = "form-control" placeholder="Enter Super-Heroes" name = "search">
+                <button type = "submit" class = "search-btn"><i class = "fas fa-search"></i></button>
+                <div class = "search" id = "search"></div>
+                </form>
+        </div>
+        
+        <div class = "container">
+            <div class = "container-content">
+                <div class = "pic">
+                    <img src = "images/superman.jpg">
+                </div>
+                    
+                <div class = "container-list">
+                    <div class = "name">Superman</div>
+
+                    <div class = "container-stat">
+                        <button type = "button" class = "stat" data-id = "1">
+                            <span>Biography</span>
+                        </button>
+                        <button type = "button" class = "stat" data-id = "2">
+                            <span>Connections</span>
+                        </button>
+                    </div>
+
+                    <div class = "container-info">
+                        <ul class = "hero biography">
+                            <li>
+                                <span>full name</span>
+                                <span>Clark Kent</span>
+                            </li>
+                            <li>
+                                <span>Aliases</span>
+                                <span>Clark Joseph Kent, The Man Of Steel, The Man Of Tomorrow, The Last Son Of Krypton, Big Blue, The Metropolis Marvel, The Action Ace</span>
+                            </li>
+                            <li>
+                                <span>place of birth</span>
+                                <span>Krypton</span>
+                            </li>
+                            <li>
+                                <span>first-apperance</span>
+                                <span>ACTION COMICS #1</span>
+                            </li>
+                            <li>
+                                <span>publisher</span>
+                                <span>DC Comics</span>
+                            </li>
+                            </ul>
+                            <ul class = "hero connections">
+                                <li>
+                                    <span>group--affiliation</span>
+                                    <span>Justice League of America, The Legion of Super-Heroes (pre-Crisis as Superboy); Justice Society of America (pre-Crisis Earth-2 version); All-Star Squadron (pre-Crisis Earth-2 version)</span>
+                                </li>
+                                <li>
+                                    <span>relatives</span>
+                                    <span>Lois Lane (wife), Jor-El (father, deceased), Lara (mother, deceased), Jonathan Kent (adoptive father), Martha Kent (adoptive mother), Seyg-El (paternal grandfather, deceased), Zor-El (uncle, deceased), Alura (aunt, deceased), Supergirl (Kara Zor-El, cousin), Superboy (Kon-El/Conner Kent, partial clone)</span>
+                                </li>
+                            </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
